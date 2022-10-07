@@ -24,10 +24,10 @@ function mostrarDatosCarrito(array){
           <p id="costoProd">`+ item.currency +` `+ item.unitCost +`</p>
         </div>
           <div class="col">
-            <input class="form-control" type="number" onchange="calculo(${item.unitCost}") id="cantProd" value=`+ item.count +`> 
+            <input class="form-control" type="number" id="cantProd" value=`+ item.count +`> 
           </div>
           <div class="col">
-            <p id="subProd"> `+(precio*cantidad)+` </p>
+            <p id="subProd"></p>
           </div>
 
         </div>
@@ -35,7 +35,7 @@ function mostrarDatosCarrito(array){
         
         `
         document.getElementById("carrito-list-container").innerHTML = htmlContentToAppend;
-        /* document.getElementById("subProd").innerHTML += subtotal; */
+        document.getElementById("subProd").innerHTML += subtotal;
     }
 }
 
