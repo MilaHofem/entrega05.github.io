@@ -5,14 +5,6 @@ let cantidad = parseInt(document.getElementById("cantProd"));
 let subtotal = 0;
 
 
-function subtotal(precio){
-	
-	subtotal = precio*cantidad;
-	return subtotal;
-    console.log(cantidad)
-}
-
-
 function mostrarDatosCarrito(array){
 
 
