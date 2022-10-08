@@ -29,7 +29,7 @@ function mostrarDatosCarrito(array){
             <p id="costoProd${item.id}">${item.currency} ${item.unitCost}</p>
             </div>
             <div class="col">
-                <input class="form-control-price" type="number" onchange="subtotal(${item.id}, ${item.unitCost})" id="cantProd${item.id}" value="${item.count}" w="75px";> 
+                <input class="form-control-price" type="number" onchange="subtotal(${item.id}, ${item.unitCost})" id="cantProd${item.id}" value=${item.count} w="75px";> 
             </div>
             <div class="col">
                 <p id="subProd${item.id}">${item.unitCost*item.count}</p>
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         {
             carritoArray = resultObj.data.articles;
             mostrarDatosCarrito(carritoArray);
-       }
+        }
 
     });
  });
