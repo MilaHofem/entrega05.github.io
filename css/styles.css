@@ -325,20 +325,6 @@ textarea{
   
  }
 
-#nombreProd{
-  width: 100px;
-}
-
- ul{
-  list-style: none;
-  display: inline-flex;
- }
-
- li{
-  padding-left: 150px;
-  
- }
-
  .form-control-price{
   text-align: center;
   width: 60px;
