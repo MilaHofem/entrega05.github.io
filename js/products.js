@@ -71,8 +71,8 @@ function mostrarLista(array){
 EJECUCIÓN:
 
 -Al cargar la página se llama a getJSONData() pasándole por parámetro la dirección para obtener el listado.
--Se verifica el estado del objeto que devuelve, y, si es correcto, se cargan los datos en categoriesArray.
--Por último, se llama a showCategoriesList() pasándole por parámetro categoriesArray.
+-Se verifica el estado del objeto que devuelve, y, si es correcto, se cargan los datos en litaAutosArray.
+-Por último, se llama a mostrarListaAutos() pasándole por parámetro listaAutosArray.
 
 */
 
