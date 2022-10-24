@@ -278,11 +278,6 @@ textarea{
   width: 40%;
 }
 
-#carouselExampleControls{
-  padding-left: 350px;
-  padding-right: 300px;
-
-}
 
 .carousel-inner {
   width: 600px;
@@ -302,7 +297,6 @@ textarea{
 
 #prodRel{
   align-items: center;
-  padding-left: 350px;
 
 }
 
